@@ -215,7 +215,7 @@ td p{
                     <td rowspan="1" colspan="1" style="width:15%;vertical-align: middle;">Department:</td>
                     <td rowspan="1" colspan="1" style="width:20%;vertical-align: middle;">Firetronics Pte Ltd</td>
                     <td rowspan="1" colspan="1" style="width:25%;vertical-align: middle;">RA Leader :<?php echo $valueAllUser['name'];
-                    echo '<img width="40" src="staff/'.$valueAllUser["signature"].'"/>';?></td>
+                    echo '<img width="80" src="staff/'.$valueAllUser["signature"].'"/>';?></td>
                     <td rowspan="3" colspan="1" style="width:15%;vertical-align: middle;">Approved by:Signature:</td>
                     <td rowspan="3" colspan="1" style="width:15%;vertical-align: middle;">
                     <?php if($risk['status'] ==2)
@@ -224,7 +224,7 @@ td p{
 						}
 						?>
                      </td>
-                    <td rowspan="6" colspan="1" style="width:10%;vertical-align: middle;"><img width='100' src='staff/stamp.png' /><br />Reference Number<h1>P-0<?php echo $risk['id'];?></h1></td>
+                    <td rowspan="6" colspan="1" style="width:10%;vertical-align: middle;"><br />Reference Number<h1>P-0<?php echo $risk['id'];?></h1></td>
 
                 </tr>
                  <tr>
